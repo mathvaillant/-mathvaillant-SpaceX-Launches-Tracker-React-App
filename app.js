@@ -20,7 +20,7 @@ app.use(
 app.use(express.static('public'));
 
 app.get('*', (req, res) => {
-  res.send(path.resolve(__dirname, 'public', 'index.html'));
+  res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
 });
 
 const PORT = process.env.PORT || 5000;
