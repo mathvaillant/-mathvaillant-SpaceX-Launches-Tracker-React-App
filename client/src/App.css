@@ -1,0 +1,17 @@
+body {
+  background-color: #000;
+}
+
+.bntDetails {
+  background-color: rgb(85, 85, 85);
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 400;
+  padding: 0.4rem 0.6rem;
+}
+
+.bntDetails:active {
+  outline: none;
+  border:none; 
+}
